@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+#ahorcado {
+  font-size: 32px;
+  letter-spacing: 10px;
+  margin: 20px;
+}
+#mensaje {
+  margin: 10px;
+  font-weight: bold;
+}
+#letras {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 500px;
+  margin-bottom: 20px;
+}
+.letra {
+  margin: 5px;
+  padding: 10px;
+  background: #008cba;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.letra:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+#reiniciar {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+#intentos {
+  margin: 10px;
+}
